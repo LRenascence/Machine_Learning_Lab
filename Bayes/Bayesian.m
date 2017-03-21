@@ -3,7 +3,7 @@ clc;
 load sample.mat w1;
 load sample.mat w2;
 [row,col]=size(w1);
-k=3%feature number
+k=input('feature number: ');%feature number
 %prior probability
 pw1=1/2;
 pw2=1/2;
